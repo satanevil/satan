@@ -235,16 +235,16 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {198828890},--Sudo users
+    sudo_users = {144132967,107264463,97343360,107908156},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V 1
-    Advanced Bot Base On Seed
+    about_text = [[The Great Satan
+    Admins:
+    @TnT_BoY
+    @Hell-admin1
     
-    @WilSoN_DeVeLoPeR[DeVeLoPeR] 
-    
-    #Open_Source 
-    [@W_SaTaN_W] [Https://github.com/DeterGent-Legion/MeGa_SaTaN]
+    This Bot made by
+    அêłł էҽąʍ
     
 ]],
     help_text_realm = [[
@@ -322,6 +322,110 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
+    Commands list of The Great Satan:
+
+!kick [username|id]
+حذف کردن کسی . همچنین با ریپلی هم میتونین🚫
+
+!ban [ username|id]
+بن کردن کسی . همچنین با ریپلی هم میتونین🚫
+
+!unban [id]
+آنبن کردن کسی . همچنین با ریپلی هم میتونین🔓
+
+!who
+📝آی دی لیست اعضای گروه📋
+
+!modlist
+🔱لیست ادمین های این گروه🔱
+
+!promote [username]
+🔱ادمین کردن کسی در این گروه🔱
+
+!demote [username]
+صلب ادمینی از کسی در این گروه🚫
+
+!kickme
+خودت را کیک کن🔫
+
+!about
+در مورد گروه📢
+
+!setphoto
+عکس گروه را تغییر بده🎇
+
+!setname [name]
+اسم گروه را تغییر بده💥
+
+!rules
+نمایش قوانین گروه🔥
+
+!id
+ای دی گروه را بده🔥
+
+!id
+با ریپلی کردن ای دی شخص را بگیر😼
+
+!lock [member|name|bots]
+قفل کن [ آمدن اعضا ,  اسم , آمدن ربات ] 🔐
+
+!unlock [member|name|photo|bots]
+از قفل دربیار [ اسم , عکس , آمدن اعضا , آمدن ربات ] 🔓
+
+!set rules <متن>
+قوانین گروه را نمایش بده🔱
+!set about <متن>
+درباره ی گروه چیزی بنویس🔄
+
+!settings
+تنظیمات گروه را بدهℹ️
+
+!newlink
+لینک جدید بساز🆕
+
+!link
+لینک گږۅه ږۅ بـــــڍه✳️
+
+!owner
+صاحب گروه ڪیــــــــــست؟❗️
+
+!setowner [id]
+✔️صاحب گروه را عوض کن✔️
+
+!setflood [عدد]
+🔱تعداد پیام هایی که همزمان میتوانند بدهند را تغییر بده🔱
+
+!stats
+🔱آمار را بده🔱
+
+!save [ کلمه ] < Matn >
+♻️در مورد کلمه ای متنی را ثبت کن♻️
+
+!get [کلمه]
+✅متن ثبت شده در مورد کلمه را بگیر✅
+
+!clean [modlist|rules|about]
+🚫پاک کردن [ ادمین های یک گروه , قوانین گروه , در مورد گروه ] ⛔️
+
+!res [username]
+اطلاعات شخصی را بگیر
+"!res @username"
+🆔بجای یوزر نیم ای دی شخص را بگزار🆔
+
+
+!log
+✅عملیات انجام شده گروه را بده✅
+
+!banlist
+⛔️لیست بن شده ها را بده🚫
+
+♦️ میتوانید از کماند ها هم با شکلک های ! / دستور بدهید
+
+♦️فقط سازنده گروه و ادمین گروه قادر به ادد کردن ربات هست
+
+♦️ فقط ادمین های گروه و سازنده میتواند دستورات مختص گروه را تغییر دهد مانند : تغییر اسم , عکس , قفل کردن , گرفتن لینک و ... را
+
+♦️فقط سازنده میتواند به جای خودش سازنده بگزارد یا کسی را ادمین گروه کند یا صلب ادمینی بکند یا عملیات گروه را بگیرد
 ]]
   }
   serialize_to_file(config, './data/config.lua')
